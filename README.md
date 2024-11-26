@@ -1,16 +1,20 @@
-# printer_controller
+# Printer Info Flutter App
 
-A new Flutter project.
+**Printer Info** - Bu dastur Windows tizimida o‘rnatilgan printerlar ro‘yxatini ko‘rsatadi. Dastur printerlar haqida asosiy ma'lumotlarni olish va ko‘rsatish imkonini beradi, masalan, printer nomi, port nomi, drayver nomi va holati.
 
-## Getting Started
+## Talablar
 
-This project is a starting point for a Flutter application.
+- **Flutter SDK**: 3.0 yoki undan yuqori versiya
+- **Windows** tizimi
 
-A few resources to get you started if this is your first Flutter project:
+## O‘rnatish
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+1. **Flutter loyihasini yaratish va o‘rnatish:**
+   Dasturga kerakli kutubxonalarni o‘rnatish uchun, avvalo `pubspec.yaml` faylida quyidagi kutubxonalarni qo‘shing:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+   ```yaml
+   dependencies:
+     flutter:
+       sdk: flutter
+     ffi: ^2.0.1
+     win32: ^3.0.1
